@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto+Slab:wght@600&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header {
+  height: 20vh;
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  width: 20vw;
+  margin-left: 1rem;
+}
+
+.redessociais {
+  width: 10%;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.icones img {
+  width: 30px;
+  height: 30px;
+}
+
+.Dogchapeuzinho {
+  height: 120vh;
+  background-image: url("./img/Dog\ chapeuzinho.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+}
+
+.Dogchapeuzinho h1 {
+  width: 60%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  bottom: 30%;
+}
+
+.Dogchapeuzinho img {
+  width: 10%;
+  position: absolute;
+}
+
+.DogLeão {
+  height: 120vh;
+  background-image: url("./img/Dog\ Leão.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  display: flex;
+  align-items: center;
+
+}
+
+.DogLeão div {
+  width: 40%;
+  margin-left: 4rem;
+}
+
+.DogLeão h2 {
+  font-size: 3.5rem;
+  color: #3a342f;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.DogLeão p {
+  font-size: 2rem;
+  color: #3a342f;
+  margin: 2rem 0 2rem 0;
+  font-family: "Roboto Serif", serif;
+}
+
+.DogLeão button {
+  width: 50%;
+  height: 10vh;
+  color: #f4f2f3;
+  background-color: #3a342f;
+  font-size: 2rem;
+  border-radius: 40px;
+}
+
+.Dog {
+  height: 120vh;
+  background-image: url("./img/Dog.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-end;
+}
+
+.Dog div {
+  width: 40%;
+  height: 50vh;
+  margin-right: 5rem;
+  margin-top: 10rem;
+}
+
+.Dog p {
+  font-size: 2rem;
+  color: white;
+  margin: 2rem 0 2rem 0;
+  font-family: "Roboto, Regular";
+}
+
+.Dog h2 {
+  font-size: 3.5rem;
+  color: white;
+  font-family: "Roboto Serif";
+}
+
+.Dog button {
+  width: 50%;
+  height: 10vh;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-size: 2rem;
+  border-radius: 40px;
+}
+
+.Patrocinador {
+  height: 25vh;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Patrocinador h2 {
+  font-style: italic;
+  color: #FD6A9A
+}
+
+.Patrocinador div {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  height: 60vh;
+  display: flex;
+  color: #FFFFFF;
+  background-color: #FD6A9A;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer section{
+  width: 20%;
+  height: 35vh;
+  margin-left: 5%;
+  text-align: center;
+}
+
+footer h3{
+  font-size:2rem;
+  font-family:"Roboto Serif", serif ;
+}
+
+footer li{
+  margin-top: 2%;
+}
+
+footer ul{
+  margin-top: 5vh;
+  list-style: none;
+  font-size: 1rem;
+}
+
