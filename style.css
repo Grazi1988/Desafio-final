@@ -141,7 +141,7 @@ ul {
 }
 
 .Patrocinador {
-  height: 25vh;
+  height:20vh;
   background-color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -154,7 +154,8 @@ ul {
 }
 
 .Patrocinador div {
-  width: 40%;
+  width: 40vw;
+  height: 4vh;
   display: flex;
   justify-content: space-between;
 }
@@ -169,24 +170,4 @@ footer {
 }
 
 footer section{
-  width: 20%;
-  height: 35vh;
-  margin-left: 5%;
-  text-align: center;
-}
-
-footer h3{
-  font-size:2rem;
-  font-family:"Roboto Serif", serif ;
-}
-
-footer li{
-  margin-top: 2%;
-}
-
-footer ul{
-  margin-top: 5vh;
-  list-style: none;
-  font-size: 1rem;
-}
-
+ 
